@@ -1,0 +1,109 @@
+/* Removes default CSS elements */
+* {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+/* Display flexing the elements */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adjust the sizes and style of the title section located at the nav*/
+.title-section {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+/* Makes the wrapper 50% so that it equates to 100, when combined together */
+.img-wrapper, .headline {
+    width: 50%;
+    padding-top: 1%;
+}
+
+/* Adjusts all image element */
+img {
+    height: 200px;
+    width: auto;
+}
+
+/* Adds a background color */
+body {
+    background-color: #275685;
+}
+
+/* Display flexing the section elements */
+.section {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.un {
+    display: flex;
+    justify-content: center;
+}
+
+/* Adds design for the headline */
+.headline {
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: larger;
+    color: #fff;
+}
+
+.headline p {
+    width: 80%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(162, 196, 255);
+    font-size: 16px;
+}
+
+/* Adds CSS properties for the midsec class */
+.midsec {
+    display: block;
+}
+
+.midsec h2 {
+    margin-left: 1in;
+    font-size: 50px;
+    width: 50%;
+}
+
+.midsec p {
+    margin-left: 1in;
+    text-indent: 1in;
+    margin-right: 0.5in;
+    font-size: smaller;
+}
+
+#purpose-content {
+    width: 100%;
+}
+
+/* Removes the default styling for the links or a element */
+a:link, a:visited {
+    color: white;
+    font-family: sans-serif;
+    font-style: none;
+    text-decoration: none;
+}
+
+/* When mouse is hover in the button, it changes color */
+.button-wrapper:hover {
+    background-color: rgba(55, 129, 202, 0.8);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    padding: 1% 2%;
+    border-left: black 5px solid;
+}
